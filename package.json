@@ -4,12 +4,12 @@
   "description": "Application simulating a shopping list built using the mern stack",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm install --prefix ../FrontEnd",
+    "client-install": "npm install --prefix ../shopping-mern-frontEnd",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix ../FrontEnd",
+    "client": "npm start --prefix ../shopping-mern-frontEnd",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ../FrontEnd && npm run build --prefix ../FrontEnd"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ../shopping-mern-frontEnd && npm run build --prefix ../shopping-mern-frontEnd"
   },
   "repository": {
     "type": "git",
